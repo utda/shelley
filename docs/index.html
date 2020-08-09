@@ -91,7 +91,7 @@
         <!-- Portfolio Grid Items-->
         <div class="row">
           <!-- Portfolio Item 1-->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-3 mb-5">
             <div
               class="portfolio-item mx-auto"
               data-toggle="modal"
@@ -110,7 +110,7 @@
             </div>
           </div>
           <!-- Portfolio Item 2-->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-3 mb-5">
             <div
               class="portfolio-item mx-auto"
               data-toggle="modal"
@@ -129,7 +129,7 @@
             </div>
           </div>
           <!-- Portfolio Item 3-->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-3 mb-5">
             <div
               class="portfolio-item mx-auto"
               data-toggle="modal"
@@ -145,6 +145,25 @@
                 </div>
               </div>
               <img class="img-fluid" src="assets/cr.png" alt="" />
+            </div>
+          </div>
+          <!-- Portfolio Item 4-->
+          <div class="col-md-6 col-lg-3 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal4"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/ia.png" alt="" />
             </div>
           </div>
         </div>
@@ -302,7 +321,7 @@
                   </p>
                   <p class="mb-5">
                     <a
-                      href="http://da.dl.itc.u-tokyo.ac.jp/mirador/?manifest=https://utda.github.io/shelly/manifest.json&sidePanelOptions=on"
+                      href="http://da.dl.itc.u-tokyo.ac.jp/mirador/?manifest=https://utda.github.io/shelly/manifest.json&sidePanelOptions=on&annotationState=on"
                     >
                       <button class="btn btn-primary">
                         <!-- data-dismiss="modal" -->
@@ -400,7 +419,77 @@
         </div>
       </div>
     </div>
-
+    <!-- Portfolio Modal 4-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal4Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                    id="portfolioModal3Label"
+                  >
+                    Image Annotator
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Text-->
+                  <p class="mb-5">
+                    神崎正英氏が開発している<a
+                      href="https://www.kanzaki.com/works/2016/pub/image-annotator"
+                      >Image Annotator</a
+                    >を使用しています。<br />画面右上のchoiceを使用して、表示画像を選択してください。
+                  </p>
+                  <!-- Portfolio Modal - Text-->
+                  <p class="mb-5">
+                    <a href="https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://utda.github.io/shelly/manifest.json">
+                      <button class="btn btn-primary">
+                        <!-- data-dismiss="modal" -->
+                        <!-- 
+                                                <i class="fas fa-times fa-fw"></i> -->
+                        閲覧する
+                      </button>
+                    </a>
+                  </p>
+                  <!-- Portfolio Modal - Image-->
+                  <a href="https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://utda.github.io/shelly/manifest.json">
+                    <img
+                      class="img-fluid rounded mb-5"
+                      src="assets/ia.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
