@@ -1,0 +1,43 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://utda.github.io/shelly/oa/items/1/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "anbase:aa8976a7cdc4c79861a079357ec37f06",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=5788,2161,1289,2122",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Dolphin",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "anbase:c1a678d62083cf4b6c0cffc90fd4f384",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "ANT.FORTI",
+                "format": "text/plain"
+            },
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=1850,3075,1733,303"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "anbase:a1a7aa62699c1419ce8fd8b9d09d0908",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "C",
+                "format": "text/plain"
+            },
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=2618,3349,268,264"
+        }
+    ]
+}

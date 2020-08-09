@@ -56,7 +56,7 @@
 		"canvases": [{
 			"@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1",
 			"@type": "sc:Canvas",
-			"label": "元画像",
+			"label": "[1]",
 			"thumbnail": {
 				"@id": "https://utda.github.io/shelly/iiif/original/full/200,/0/default.jpg",
 				"service": {
@@ -65,6 +65,12 @@
 					"profile": "http://iiif.io/api/image/2/level2.json"
 				}
 			},
+			"otherContent": [
+				{
+					"@id": "https://utda.github.io/shelly/oa/items/1/annolist.json",
+					"@type": "sc:AnnotationList"
+				}
+			],
 			"width": 8612,
 			"height": 6470,
 			"images": [{
