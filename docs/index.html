@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>
+      透過光画像を使ったIIIFアプリケーション - シェリー書簡 - 東京大学
+    </title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav
+      class="navbar navbar-expand-lg bg-secondary text-uppercase"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger">東京大学総合図書館所蔵 シェリー書簡</a>
+
+        <button
+          class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/"
+                >公開元サイト</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="https://github.com/utda/shelly"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+      <div class="container">
+        <!-- Portfolio Section Heading-->
+        <h2
+          class="page-section-heading text-center text-uppercase text-secondary mb-0"
+        >
+          透過光画像を使ったIIIFアプリケーション
+        </h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Portfolio Grid Items-->
+        <div class="row">
+          <!-- Portfolio Item 1-->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal1"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/mag-sbs.png" alt="" />
+            </div>
+          </div>
+          <!-- Portfolio Item 2-->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal2"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/mirador.png" alt="" />
+            </div>
+          </div>
+          <!-- Portfolio Item 3-->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal3"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/cr.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <p class="lead">
+          IIIF Image API level
+          0を採用することで、本アプリケーションを画像を含めて静的ファイルのみで構築しています。
+        </p>
+        <p class="lead">
+          IIIF Image API level 0の画像生成には、<a
+            class="btn btn-outline-light"
+            href="https://github.com/zimeon/iiif/blob/master/iiif_static.py"
+          >
+            iiif_static
+          </a>
+          を利用しています。
+        </p>
+      </div>
+    </section>
+
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        東京大学学術資産等アーカイブズ委員会事務局<br />
+          （東京大学附属図書館総務課／<br />
+          学術資産アーカイブ化推進室）<br />
+          E-mail：digital-archive [at] lib.u-tokyo.ac.jp
+      </div>
+    </div>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+      <a
+        class="js-scroll-trigger d-block text-center text-white rounded"
+        href="#page-top"
+        ><i class="fa fa-chevron-up"></i
+      ></a>
+    </div>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                    id="portfolioModal1Label"
+                  >
+                    Image Comparison with a Slider
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Text-->
+                  <p class="mb-5">
+                    <a href="https://digirati.com/">Digirati</a>が開発した<a
+                      href="https://resources.digirati.com/iiif/an-introduction-to-iiif/dee-sbs.html"
+                      >画像比較ビューア</a
+                    >を使用しています。
+                  </p>
+                  <!-- <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p> -->
+                  <p class="mb-5">
+                    <a href="dee-sbs">
+                      <button class="btn btn-primary">
+                        <!-- data-dismiss="modal" -->
+                        <!-- 
+                                                <i class="fas fa-times fa-fw"></i> -->
+                        閲覧する
+                      </button>
+                    </a>
+                  </p>
+                  <!-- Portfolio Modal - Image-->
+                  <a href="dee-sbs">
+                    <img
+                      class="img-fluid rounded mb-5"
+                      src="assets/mag-sbs.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                    id="portfolioModal2Label"
+                  >
+                    Mirador
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Text-->
+                  <p class="mb-5">
+                    画面左ペインの「Layers」タブを選択し、「opacity」を調整してください。
+                  </p>
+                  <p class="mb-5">
+                    <a
+                      href="http://da.dl.itc.u-tokyo.ac.jp/mirador/?manifest=https://utda.github.io/shelly/manifest.json&sidePanelOptions=on"
+                    >
+                      <button class="btn btn-primary">
+                        <!-- data-dismiss="modal" -->
+                        <!-- 
+                                                <i class="fas fa-times fa-fw"></i> -->
+                        閲覧する
+                      </button>
+                    </a>
+                  </p>
+                  <!-- Portfolio Modal - Image-->
+                  <a
+                    href="http://da.dl.itc.u-tokyo.ac.jp/mirador/?manifest=https://utda.github.io/shelly/manifest.json&sidePanelOptions=on"
+                  >
+                    <img
+                      class="img-fluid rounded mb-5"
+                      src="assets/mirador.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                    id="portfolioModal3Label"
+                  >
+                    IIIF Curation Viewer
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Text-->
+                  <p class="mb-5">
+                    <a href="http://codh.rois.ac.jp/">CODH</a>が開発した<a
+                      href="http://codh.rois.ac.jp/software/iiif-curation-viewer-embedded/"
+                      >IIIF Curation Viewer Embeded</a
+                    >を使用しています。<br />画面右上のラジオボタンを使用して、表示画像を選択してください。
+                  </p>
+                  <!-- Portfolio Modal - Text-->
+                  <p class="mb-5">
+                    <a href="curation?manifest=manifest.json">
+                      <button class="btn btn-primary">
+                        <!-- data-dismiss="modal" -->
+                        <!-- 
+                                                <i class="fas fa-times fa-fw"></i> -->
+                        閲覧する
+                      </button>
+                    </a>
+                  </p>
+                  <!-- Portfolio Modal - Image-->
+                  <a href="curation?manifest=manifest.json">
+                    <img
+                      class="img-fluid rounded mb-5"
+                      src="assets/cr.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
