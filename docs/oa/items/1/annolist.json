@@ -8,7 +8,7 @@
             "@id": "anbase:aa8976a7cdc4c79861a079357ec37f06",
             "@type": "oa:Annotation",
             "motivation": "oa:commenting",
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=5788,2161,1289,2122",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=2824,2161,1289,2122",
             "resource": {
                 "@type": "cnt:ContentAsText",
                 "chars": "Dolphin",
@@ -25,7 +25,7 @@
                 "chars": "ANT.FORTI",
                 "format": "text/plain"
             },
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=1850,3075,1733,303"
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=6762,3075,1733,303"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -37,7 +37,7 @@
                 "chars": "C",
                 "format": "text/plain"
             },
-            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=2618,3349,268,264"
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=5994,3349,268,264"
         }
     ]
 }
