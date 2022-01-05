@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://utda.github.io/shelly/files/tile/original",
+  "@id": "https://utda.github.io/shelley/files/tile/original",
   "height": 6470,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",

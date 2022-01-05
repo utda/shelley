@@ -1,6 +1,6 @@
 {
     "@context": "http://www.shared-canvas.org/ns/context.json",
-    "@id": "https://utda.github.io/shelly/oa/items/1/annolist.json",
+    "@id": "https://utda.github.io/shelley/oa/items/1/annolist.json",
     "@type": "sc:AnnotationList",
     "resources": [
         {

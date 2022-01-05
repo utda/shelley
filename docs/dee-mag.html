@@ -42,8 +42,8 @@ border-radius: 50%;
   <script>
       var map = L.map('map', { center: [0, 0], crs: L.CRS.Simple, zoom: 0, dragging:true });
 
-      var baseLayer = L.tileLayer.iiif('https://utda.github.io/shelly/files/tile/original/info.json').addTo(map);
-      var magnifedLayer = L.tileLayer.iiif('https://utda.github.io/shelly/files/tile/toka/info.json');
+      var baseLayer = L.tileLayer.iiif('https://utda.github.io/shelley/files/tile/original/info.json').addTo(map);
+      var magnifedLayer = L.tileLayer.iiif('https://utda.github.io/shelley/files/tile/toka/info.json');
 
       var magnifyingGlass = L.magnifyingGlass({
       layers: [magnifedLayer],
